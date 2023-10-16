@@ -1,0 +1,85 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e9f1e8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    border: 2px solid #007BFF;
+    border-radius: 50%
+}
+
+h1 {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+ul, ol {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
+
+.skills-column ul {
+    list-style-type: square;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
